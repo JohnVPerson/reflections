@@ -1,0 +1,12 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+When a repository is initialized, the metadata for all the files in the repository is created.
+It is neccessary to create and store this metadata for the version control of these files.
+
+
+
+How is the staging area different from the working directory and the repository?
+What value do you think it offers?
+
+Having a staging area allows you to pick and choose what files get added to a commit
+elping diferentiate between single logical changes.
