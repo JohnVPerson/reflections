@@ -1,0 +1,56 @@
+How did viewing a diff between two versions of a file help you see a bug that was introduced?
+
+Viewing a diff between two files helped see a bug by providing the lines that
+were different between the files without having to scan each file manually. This
+sped up the process of debugging greatly.
+
+
+
+How could having easy access to the entire history of a file make you a more efficient 
+programmer in the long term?
+
+Having easy access to the entire history of a file could help identifying bugs
+in code. If a change introduced a bug I could easily go back and identify where 
+the bug might have been introduced with a complete version history.
+
+
+
+What do you think are the pros and cons of manually choosing when to create a commit,
+like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+Pros: 
+Manually deciding ensures the complete change is included in the commit/save.
+
+Cons:
+Forgetting to commit/save can result in lost work/time.
+
+
+
+Why do you think some version control systems, like Git, allow saving multiple files
+in one commit, while others, like Google Docs, treat each file separately?
+
+Git had programming specifically in mind in production to track version control
+across multiple files.
+Platforms such as Google Docs did not specifically have this in mind.
+
+
+
+How can you use the commands git log and git diff to view the history of files?
+
+Use the 'git log' command to find the commit IDs that you wish to compare.
+Then use the 'git diff' command followed by the two IDs to print out the comparison.
+
+
+
+How might using version control make you more confident to make changes that could
+break something?
+
+Using version control would allow me to quickly assess the differences between
+commits to see where a bug might have been introduced and allow me to see what changed
+in the code between the commits.
+
+
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+Managing prjects for the web developement nanodegree course.
