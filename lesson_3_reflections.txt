@@ -41,3 +41,13 @@ the collaborators. It would be easier if one of the collaborators didn't know ho
 or GitHub. It would be harder because any version control would'nt exist on the file, and going
 back to any older version wouldn't be possible. Also, seeing any changes made would be harder
 even if the difference was explained by the person who made the changes.
+
+
+
+When would you want to make changes in a separate branch rather than directly in master?
+What benefits does each approach have?
+
+When adding an experimental feature to a program that you aren't sure will work and you
+don't want to disrupt the released version for users is when you would want to use a branch.
+This way the master branch is undisrupted and can continue to be utilized until the feature
+can be implemented and merged with it.
