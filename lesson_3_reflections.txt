@@ -23,3 +23,10 @@ with a master branch until it is finished. Forks would be used to copy another p
 repository while giving credit to the original poster. Clones would be used if work is being
 done to a repository on different computers. Branches would be used to implement a new feature
 that can be later merged to the master.
+
+
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+The benefit is having a more up-to-date repository for changes being made and having to commit
+a smaller size when updating an online repository on GitHub.
